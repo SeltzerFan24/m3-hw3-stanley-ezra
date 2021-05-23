@@ -1,6 +1,23 @@
 body {
   font-family: Roboto;
 }
+.links {
+  color: #050500;
+  font-weight: 500;
+}
+.red-uppercase {
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #EE252F;
+}
+.btn {
+  background-color: #F8DF1F;
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  border-radius: 8px;
+}
 header {
   background-color: #F8DF1F;
 }
@@ -14,14 +31,27 @@ header .red-uppercase {
   text-transform: uppercase;
   color: #EE252F;
 }
-.bblogo {
+main .bblogo {
   position: absolute;
   transform: translate(50%, 45%);
 }
-.btn {
+.best-burgers .red-uppercase {
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #EE252F;
+}
+.best-burgers .btn {
   background-color: #F8DF1F;
   font-size: 18px;
   color: #050500;
   font-weight: 500;
   border-radius: 8px;
+}
+.dine-in {
+  background-color: #F3F3F3;
+}
+footer {
+  background-color: #080801;
+  border-top: 5px solid #F8DF1F;
 }

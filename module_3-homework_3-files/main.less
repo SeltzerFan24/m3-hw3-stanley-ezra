@@ -4,22 +4,15 @@ body {
     font-family: @font-family;
 }
 
-header {
-    background-color: @primary-color;
-    .links {
-        color: @font-color;
-        font-weight: @primary-fw;
-    }
-    .red-uppercase{
-        .links();
-        text-transform: @uppercase;
-        color: @span-color;
-    }
+.links {
+    color: @font-color;
+    font-weight: @primary-fw;
 }
 
-.bblogo {
-    position: @logo-position;
-    transform: @logo-transform;
+.red-uppercase{
+    .links();
+    text-transform: @uppercase;
+    color: @span-color;
 }
 
 .btn {
@@ -28,4 +21,39 @@ header {
     color: @font-color;
     font-weight: @primary-fw;
     border-radius: @border-radius;
+}
+
+header {
+    background-color: @primary-color;
+    .links {
+        .links();
+    }
+    .red-uppercase{
+        .red-uppercase();
+    }
+}
+
+main {
+.bblogo {
+    position: @logo-position;
+    transform: @logo-transform;
+}
+}
+
+.best-burgers {
+    .red-uppercase {
+        .red-uppercase();
+    }
+    .btn {
+        .btn();
+    }
+}
+
+.dine-in {
+    background-color: @section-bg;
+}
+
+footer {
+    background-color: @footer-color;
+    border-top: @footer-border;
 }
