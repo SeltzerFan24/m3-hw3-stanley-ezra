@@ -1,5 +1,31 @@
 @import "./variables.less";
 
+body {
+    font-family: @font-family;
+}
+
 header {
     background-color: @primary-color;
+    .links {
+        color: @font-color;
+        font-weight: @primary-fw;
+    }
+    .red-uppercase{
+        .links();
+        text-transform: @uppercase;
+        color: @span-color;
+    }
+}
+
+.bblogo {
+    position: @logo-position;
+    transform: @logo-transform;
+}
+
+.btn {
+    background-color: @primary-color;
+    font-size: @med-font-size;
+    color: @font-color;
+    font-weight: @primary-fw;
+    border-radius: @border-radius;
 }

@@ -1,3 +1,27 @@
+body {
+  font-family: Roboto;
+}
 header {
   background-color: #F8DF1F;
+}
+header .links {
+  color: #050500;
+  font-weight: 500;
+}
+header .red-uppercase {
+  color: #050500;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #EE252F;
+}
+.bblogo {
+  position: absolute;
+  transform: translate(50%, 45%);
+}
+.btn {
+  background-color: #F8DF1F;
+  font-size: 18px;
+  color: #050500;
+  font-weight: 500;
+  border-radius: 8px;
 }
