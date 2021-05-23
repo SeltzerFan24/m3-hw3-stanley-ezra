@@ -23,6 +23,11 @@ body {
     border-radius: @border-radius;
 }
 
+h2 {
+    @media @small{
+        font-size: @h-font-size;
+    }
+}
 header {
     background-color: @primary-color;
     .links {
@@ -35,8 +40,14 @@ header {
 
 main {
 .bblogo {
-    position: @logo-position;
+    position: @absolute;
     transform: @logo-transform;
+}
+.ordernow{
+    @media @small {
+    position: @absolute;
+    transform: @ordernow-transform;
+}
 }
 }
 

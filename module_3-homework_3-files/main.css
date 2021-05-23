@@ -18,6 +18,11 @@ body {
   font-weight: 500;
   border-radius: 8px;
 }
+@media (min-width: 577px) {
+  h2 {
+    font-size: 30px;
+  }
+}
 header {
   background-color: #F8DF1F;
 }
@@ -34,6 +39,12 @@ header .red-uppercase {
 main .bblogo {
   position: absolute;
   transform: translate(50%, 45%);
+}
+@media (min-width: 577px) {
+  main .ordernow {
+    position: absolute;
+    transform: translate(-50%, -239%);
+  }
 }
 .best-burgers .red-uppercase {
   color: #050500;
