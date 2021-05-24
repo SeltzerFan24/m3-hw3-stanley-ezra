@@ -15,13 +15,15 @@
   <body>
 
     <header class="py-3">
-      <nav>
-        <ul class="links nav justify-content-center py-3">
-          <li class="nav-item px-2">Home</li>
-          <li class="nav-item px-2">Menu</li>
-          <li class="nav-item px-2">About Us</li>
-          <li class="red-uppercase nav-item px-2">Order Now</li>
-        </ul>
+      <nav class="navbar navbar-expand">
+        <div class="container">
+          <ul class="links navbar-nav">
+            <li class="nav-item px-2">Home</li>
+            <li class="nav-item px-2">Menu</li>
+            <li class="nav-item px-2">About Us</li>
+            <li class="red-uppercase nav-item px-2">Order Now</li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -33,25 +35,34 @@
       </div>
     </main>
 
-    <section class="best-burgers mx-3">
-      <h2 class="text-uppercase">World's Best <span class="red-uppercase">Burgers</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-      <img src="img\bobs-burger.png" class="img-fluid w-50 mx-auto mb-3 d-block" title="hamburger loving crafted by Bob" alt="cartoon hamburger" />
-      <div class="text-center">
-        <button class="btn mb-4 text-uppercase">View Menu</button>
+    <section class="best-burgers mb-sm-3">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2">
+          <h2 class="text-uppercase col-sm-10 order-sm-1">World's Best <span class="red-uppercase">Burgers</span></h2>
+          <p class="col-sm-10 order-sm-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+          <img src="img\bobs-burger.png" class="img-fluid w-50 mx-auto mb-3 d-block col order-sm-4" title="hamburger loving crafted by Bob" alt="cartoon hamburger" />
+          <div class="text-center col order-sm-3 align-self-sm-center">
+            <button class="btn mb-4 text-uppercase">View Menu</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <section class="dine-in pb-4 mx-0">
+      <div class="container px-0 pt-sm-4">
+        <div class="row row-cols-1 no-gutters row-cols-sm-2 ">
+          <img src="img\bob-headshot.png" class="img-fluid w-50 mx-auto mb-3 d-block col order-sm-4" title="this is Bob" alt="Bob Belcher, an animated man wearing an apron and holding a burger" />
+          <h2 class="text-uppercase col-sm-10 order-sm-1">Dine-in <span class="text-lowercase">or</span> <span class="red-uppercase">Take-out</span></h2>
+          <p class="col-sm-10 order-sm-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+          <div class="text-center col order-sm-3 align-self-sm-center">
+            <button class="btn mb-2 text-uppercase">Contact Us</button>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="dine-in mx-3">
-      <img src="img\bob-headshot.png" class="img-fluid w-50 mx-auto mb-3 d-block" title="this is Bob" alt="Bob Belcher, an animated man wearing an apron and holding a burger" />
-      <h2 class="text-uppercase">Dine-in <span class="text-lowercase">or</span> <span class="red-uppercase">Take-out</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-      <div class="text-center">
-        <button class="btn mb-2 text-uppercase">Contact Us</button>
-      </div>
-    </section>
-
-    <footer class="py-4 mt-3">
+    <footer class="py-4">
       <img src="img\logo.png" class="img-fluid w-50 mx-auto mb-3 d-block" title="Bob's Burgers Logo" alt="red and yellow logo reading Bob's Burgers" />
     </footer>
 

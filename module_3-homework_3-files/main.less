@@ -7,6 +7,9 @@ body {
 .links {
     color: @font-color;
     font-weight: @primary-fw;
+    @media @small {
+        font-size: @med-font-size;
+    }
 }
 
 .red-uppercase{
@@ -48,12 +51,18 @@ main {
     position: @absolute;
     transform: @ordernow-transform;
 }
+    @media @medium {
+        transform: @ordernow-transform-md;
+    }
 }
 }
 
 .best-burgers {
     .red-uppercase {
         .red-uppercase();
+        @media @small{
+        font-size: @h-font-size;
+    }
     }
     .btn {
         .btn();
@@ -62,6 +71,11 @@ main {
 
 .dine-in {
     background-color: @section-bg;
+    .red-uppercase {
+          @media @small{
+        font-size: @h-font-size;
+    }
+    }
 }
 
 footer {
