@@ -43,15 +43,16 @@ header {
 
 main {
 .bblogo {
+    max-width: @logo-mw;
     position: @absolute;
     transform: @logo-transform;
+    @media @large {
+        max-width: @logo-lg-mw;
+    }
 }
 .ordernow{
-    @media @small {
-    position: @absolute;
-    transform: @ordernow-transform;
-}
     @media @medium {
+        position: @absolute;
         transform: @ordernow-transform-md;
     }
 }
