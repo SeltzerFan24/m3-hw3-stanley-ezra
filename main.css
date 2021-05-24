@@ -57,18 +57,17 @@ header .red-uppercase {
   }
 }
 main .bblogo {
-  max-width: 30%;
   position: absolute;
-  transform: translate(116%, 45%);
+  transform: translate(50%, 45%);
 }
-@media (min-width: 1450px) {
-  main .bblogo {
-    max-width: 435px;
+@media (min-width: 577px) {
+  main .ordernow {
+    position: absolute;
+    transform: translate(-50%, -239%);
   }
 }
 @media (min-width: 769px) {
   main .ordernow {
-    position: absolute;
     transform: translate(-50%, -316%);
   }
 }
