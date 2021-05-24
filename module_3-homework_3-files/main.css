@@ -112,3 +112,8 @@ footer {
   background-color: #080801;
   border-top: 10px solid #F8DF1F;
 }
+@media (min-width: 577px) {
+  footer .flogo {
+    max-width: 300px;
+  }
+}
