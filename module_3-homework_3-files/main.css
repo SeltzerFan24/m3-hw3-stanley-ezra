@@ -87,6 +87,9 @@ main .bblogo {
     font-size: 30px;
   }
 }
+.best-burgers img {
+  max-width: 200px;
+}
 .best-burgers .btn {
   background-color: #F8DF1F;
   font-size: 18px;
@@ -101,6 +104,9 @@ main .bblogo {
   .dine-in .red-uppercase {
     font-size: 30px;
   }
+}
+.dine-in img {
+  max-width: 150px;
 }
 footer {
   background-color: #080801;
